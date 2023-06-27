@@ -49,7 +49,7 @@ export default function Login({ navigation }) {
       <View style={{marginTop: 20, flexDirection: 'row', alignItems: 'center', alignSelf: 'center'}}>
         <Text style={{color: 'gray', fontWeight: '600', fontSize: 14}}>Don't have an account? </Text>
         <TouchableOpacity onPress={() => navigation.navigate("Signup")}>
-          <Text style={{color: '#f57c00', fontWeight: '600', fontSize: 14}}> Sign Up</Text>
+          <Text style={{color: '#0acafa', fontWeight: '600', fontSize: 14}}> Sign Up</Text>
         </TouchableOpacity>
       </View>
       </SafeAreaView>
@@ -65,14 +65,14 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 36,
     fontWeight: 'bold',
-    color: "orange",
+    color: "#0acafa",
     alignSelf: "center",
-    paddingBottom: 24,
+    paddingBottom: 20,
   },
   input: {
     backgroundColor: "#F6F7FB",
     height: 58,
-    marginBottom: 20,
+    marginBottom: 10,
     fontSize: 16,
     borderRadius: 10,
     padding: 12,
@@ -91,6 +91,7 @@ const styles = StyleSheet.create({
     bottom: 0,
     backgroundColor: '#fff',
     borderTopLeftRadius: 60,
+    borderTopRightRadius: 60,
   },
   form: {
     flex: 1,
@@ -98,7 +99,7 @@ const styles = StyleSheet.create({
     marginHorizontal: 30,
   },
   button: {
-    backgroundColor: '#f57c00',
+    backgroundColor: '#0acafa',
     height: 58,
     borderRadius: 10,
     justifyContent: 'center',

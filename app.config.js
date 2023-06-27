@@ -30,12 +30,13 @@ export default {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
-      apiKey: process.env.API_KEY,
-      authDomain: process.env.AUTH_DOMAIN,
-      projectId: process.env.PROJECT_ID,
-      storageBucket: process.env.STORAGE_BUCKET,
-      messagingSenderId: process.env.MESSAGING_SENDER_ID,
-      appId: process.env.APP_ID
+      apiKey: "AIzaSyBaOlmknONtt9dfIeo3uk611mVuFbX24Kw",
+      authDomain: "chatapp-dc5ad.firebaseapp.com",
+      projectId: "chatapp-dc5ad",
+      storageBucket: "chatapp-dc5ad.appspot.com",
+      messagingSenderId: "214313407010",
+      appId: "1:214313407010:web:88bac22e120ce7ceb2707b",
+      measurementId: "G-J317HYQP36"
     }
   }
 }
